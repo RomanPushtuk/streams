@@ -1,0 +1,18 @@
+{
+  "name": "name",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "run1": "start qr_code_recognition/index.html",
+    "run2" : "start recognition_paint/index.html",
+    "run3": "ws --https --spa qr_code_recognition_web_worker/index.html"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jsqr": "^1.2.0",
+    "local-web-server": "^4.0.0",
+    "signature_pad": "^3.0.0-beta.3"
+  }
+}
